@@ -25,7 +25,7 @@ ambientLight.intensity = 0.5
 scene.add(ambientLight)
 
 // Directional light
-const directionalLight = new THREE.DirectionalLight(0x00fffc, 0.3)
+const directionalLight = new THREE.DirectionalLight(0x00ffff, 0.3)
 directionalLight.position.set(1, 0.25, 0)
 scene.add(directionalLight)
 
@@ -77,7 +77,7 @@ material.roughness = 0.4
 
 // Objects
 const sphere = new THREE.Mesh(
-    new THREE.SphereGeometry(0.5, 32, 32),
+    new THREE.SphereGeometry(1, 32, 32),
     material
 )
 sphere.position.x = - 1.5
